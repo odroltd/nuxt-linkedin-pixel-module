@@ -3,7 +3,7 @@
 [![npm (scoped with tag)](https://img.shields.io/npm/v/nuxt-linkedin-pixel-module/latest.svg?style=flat-square)](https://npmjs.com/package/nuxt-linkedin-pixel-module)
 [![npm](https://img.shields.io/npm/dt/nuxt-linkedin-pixel-module.svg?style=flat-square)](https://npmjs.com/package/nuxt-linkedin-pixel-module)
 [![js-standard-style](https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square)](http://standardjs.com)
-[![CircleCI](https://img.shields.io/circleci/project/github/mark-beeby/nuxt-linkedin-pixel-module/master.svg?style=flat-square)](https://circleci.com/gh/mark-beeby/nuxt-linkedin-pixel-module/tree/master)
+[![CircleCI](https://img.shields.io/circleci/project/github/odroltd/nuxt-linkedin-pixel-module/master.svg?style=flat-square)](https://circleci.com/gh/odroltd/nuxt-linkedin-pixel-module/tree/master)
 
 > A NuxtJS module thats injects LinkedIn Pixel code
 
