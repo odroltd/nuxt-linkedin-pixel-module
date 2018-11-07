@@ -82,7 +82,7 @@ If you'd like to install the pixel disabled, and enable it later after the user 
 Now, in your component, you can call the following in order to start the pixel and track the current page.
 
 ```js
-this.$linkedin.enable()
+this.$li.enable()
 ```
 
 ## Module options
@@ -92,15 +92,15 @@ List of possible options in the module:
 | Option   | Default  | Required | Description                                                                               |
 |----------|----------|----------|-------------------------------------------------------------------------------------------|
 | partnerId  | null     | true     | The unique insight tag ID (usually 6 digits) identifier provided by LinkedIn (can be located within the ```Set up your insight Tag``` dialog displayed as: ```__linkedin_partner_id = "xxxxxx";```.                                         |
-| disabled | false    | false    | Disable the Pixel by default when initialized. Can be enabled later through `$linkedin.enable()`.
+| disabled | false    | false    | Disable the Pixel by default when initialized. Can be enabled later through `$li.enable()`.
 
 ## LinkedIn pixel instance
 
-The tracking pixel instance is available on all vue component instances as $linkedin. It has the following methods:
+The tracking pixel instance is available on all vue component instances as $li. It has the following methods:
 
 | Method            | Purpose                                                                                                  | Equivalent to                  |
 |-------------------|----------------------------------------------------------------------------------------------------------|--------------------------------|
-| enable()          | If you had previously set `disabled: true` in config, enables the pixel and tracks the current page view | $linkedin.init(), $linkedin.track()        |
+| enable()          | If you had previously set `disabled: true` in config, enables the pixel and tracks the current page view | $li.init()        |
 
 ## License
 
